@@ -1,0 +1,40 @@
+body {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.orenge-text{
+   color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-tittle {
+    font-size: 45px;
+font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    
+}
+.button-primary{
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
